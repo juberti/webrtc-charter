@@ -43,7 +43,7 @@ Deliverables
 
 Recommendation-Track Deliverables
 
-The working group will deliver specifications that cover at least the following functions, unless they are found to be fully specified within other working groups' finished results:
+The Working Group will deliver specifications that cover at least the following functions, unless they are found to be fully specified within other Working Groups' finished results:
 
 Media Stream Functions
 API functions to manipulate media streams for interactive real-time communications, connecting various processing functions to each other, and to media devices and network connections, including media manipulation functions for e.g. allowing to synchronize streams. Supplementary functions such as recording of media streams are also in scope.
@@ -55,7 +55,7 @@ Functional Component Functions
 API functions that allow to query for the components present in an implementation, instantiate them, and connect them to media streams.
 P2P Connection Functions
 API functions to provide interfaces that enable the conveyance of parameters necessary to establish peer to peer connections, based on the protocols selected by the IETF RTCWeb Working Group. Included in this category are also API functions to allow identification of the peer.
-The working group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
+The Working Group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
 
 WebRTC 1.0: Real-time Communication Between Browsers
 
@@ -80,6 +80,8 @@ Screen Capture API
 An extension to the Media Capture and Streams API to use a user's display, or parts thereof, as the source of a MediaStream.
 This work will be done in collaboration with the IETF. The W3C will define APIs to ensure that application developers can control the components or the architecture for selection and profiling of the wire protocols that will be produced by the IETF Real-Time Communication in WEB-browsers (RTCWeb) Working Group. While the specified API Functions will not constrain implementations into supporting a specific profile, they will be compatible with the Profile that will be specified by the RTCWeb Working Group.
 
+As the name implies, WebRTC 1.0: Real-time Communication Between Browsers is to be considered as a first version of APIs for real-time communication. The Working Group will, once WebRTC 1.0: Real-time Communication Between Browsers reaches Candidate Recommendation, consider proposals for the next version of APIs.
+
 The specified API Functions and the requirements on their implementation must offer functionality that ensures that users' expectations of privacy and control over their devices are met - this includes, but is not limited to, ensuring that users can control what local devices an application can access for capturing media, and are able to at any time revoke that access.
 
 Similarly, all the deliverables must address issues of security. The security and privacy goals and requirements will be developed in coordination with the IETF RTCWeb Working Group.
@@ -98,7 +100,7 @@ Primers
 
 Requirements and use case document for specifications.
 Non-normative group notes
-Given sufficient resources, this Working Group should review other working groups' deliverables that are identified as being relevant to the Working Group's mission.
+Given sufficient resources, this Working Group should review other Working Groups' deliverables that are identified as being relevant to the Working Group's mission.
 
 Milestones
 
@@ -129,7 +131,7 @@ Audio Working Group
 The API developed by the Audio Working Group builds upon the MediaStream object built by this group; further collaboration on the management of audio output device is expected
 Web Application Security Working Group
 The Web Application Security Working Group is developing guidance on APIs that expose sensitive information, and an API to manage permissions, both of which matter to several of this group specifications
-Web Cryptography API
+Web Cryptography Working Group
 WebRTC connections are encrypted end-to-end; collaboration is expected with the Web Cryptography Working Group on exposing and manipulating some of the cryptography functions used
 Second Screen Presentation Working Group
 The Second Screen Presentation Working Group is developing APIs to allow rendering of media on secondary devices; potential overlap with features enabled by the Audio Output Device APIs will need to be looked at
@@ -148,9 +150,7 @@ External Groups
 
 IETF Real-Time Communication in WEB-browsers group (RTCWeb)
 The RTC APIs developed by this group will build upon the protocols and formats developed in the IETF RTCWeb Working Group, which will in general handle dependencies to other IETF Working Groups.
-
 Participation
-
 To be successful, the Web Real-Time Communications Working Group is expected to have 10 or more active participants for its duration. Effective participation to Web Real-Time Communications Working Group is expected to consume one work day per week for each participant; two days per week for editors. The Web Real-Time Communications Working Group will allocate also the necessary resources for building Test Suites for each specification.
 
 Participants are reminded of the Good Standing requirements of the W3C Process.
@@ -172,7 +172,6 @@ Editors are responsible for reflecting the consensus from the Working Group in t
 Contributors are encouraged to bring specific modifications (e.g. as patches) to the group's specifications to facilitate their review by the group and eventual integration by the editors.
 
 Patent Policy
-
 This Working Group operates under the W3C Patent Policy (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.
 
 For more information about disclosure obligations for this group, please see the W3C Patent Policy Implementation.
@@ -182,3 +181,6 @@ About this Charter
 This charter for the Web Real-Time Communications Working Group has been created according to section 6.2 of the Process Document. In the event of a conflict between this document or the provisions of any charter and the W3C Process, the W3C Process shall take precedence.
 
 This charter updates and replaces the first WebRTC Working Group charter approved in 2011.
+
+François Daoust and Dominique Hazaël-Massieux, based on initial input from Harald Alvestrand
+Copyright ©2015 W3C® (MIT, ERCIM, Keio, Beihang), All Rights Reserved.
