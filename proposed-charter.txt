@@ -1,4 +1,6 @@
-Web Real-Time Communications Working Group Charter
+[DRAFT] Web Real-Time Communications Working Group Charter
+
+This is a draft for an updated W3C WebRTC Working Group charter; it has no formal standing. See also the current WebRTC Working Group charter.
 
 The mission of the Web Real-Time Communications Working Group, part of the Ubiquitous Web Applications Activity, is to define client-side APIs to enable Real-Time Communications in Web browsers.
 
@@ -6,7 +8,7 @@ These APIs should enable building applications that can be run inside a browser,
 
 Join the Web Real-Time Communications Working Group.
 
-End date	March 2017
+End date	March 2018
 Confidentiality	Proceedings are public
 Initial Chairs	
 Harald Alvestrand
@@ -15,7 +17,6 @@ Team Contacts
 (FTE %: 10)	Dominique Hazaël-Massieux
 Usual Meeting Schedule	Teleconferences: approximately 1 per month 
 Face-to-face: up to 3-4 per year
-
 Scope
 
 Enabling real-time communications between Web browsers require the following client-side technologies to be available:
@@ -26,7 +27,6 @@ API functions for encoding and other processing of those media streams,
 API functions for establishing direct peer-to-peer connections, including firewall/NAT traversal
 API functions for decoding and processing (including echo cancelling, stream synchronization and a number of other functions) of those streams at the incoming end,
 Delivery to the user of those media streams via local screens and audio output devices (partially covered with HTML5)
-
 Success Criteria
 
 To advance to Proposed Recommendation, each specification is expected to have two independent implementations of each feature defined in the specification.
@@ -43,7 +43,7 @@ Deliverables
 
 Recommendation-Track Deliverables
 
-The Working Group will deliver specifications that cover at least the following functions, unless they are found to be fully specified within other Working Groups' finished results:
+The working group will deliver specifications that cover at least the following functions, unless they are found to be fully specified within other working groups' finished results:
 
 Media Stream Functions
 API functions to manipulate media streams for interactive real-time communications, connecting various processing functions to each other, and to media devices and network connections, including media manipulation functions for e.g. allowing to synchronize streams. Supplementary functions such as recording of media streams are also in scope.
@@ -55,10 +55,9 @@ Functional Component Functions
 API functions that allow to query for the components present in an implementation, instantiate them, and connect them to media streams.
 P2P Connection Functions
 API functions to provide interfaces that enable the conveyance of parameters necessary to establish peer to peer connections, based on the protocols selected by the IETF RTCWeb Working Group. Included in this category are also API functions to allow identification of the peer.
-The Working Group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
+The working group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
 
 WebRTC 1.0: Real-time Communication Between Browsers
-
 JavaScript APIs to allow media and data to be sent to and received from another browser or device implementing the appropriate set of real-time protocols
 Identifiers for WebRTC's Statistics API
 JavaScript APIs that allow access to statistical information about a peer-to-peer connection established via the WebRTC API
@@ -80,11 +79,18 @@ Screen Capture API
 An extension to the Media Capture and Streams API to use a user's display, or parts thereof, as the source of a MediaStream.
 This work will be done in collaboration with the IETF. The W3C will define APIs to ensure that application developers can control the components or the architecture for selection and profiling of the wire protocols that will be produced by the IETF Real-Time Communication in WEB-browsers (RTCWeb) Working Group. While the specified API Functions will not constrain implementations into supporting a specific profile, they will be compatible with the Profile that will be specified by the RTCWeb Working Group.
 
-As the name implies, WebRTC 1.0: Real-time Communication Between Browsers is to be considered as a first version of APIs for real-time communication. The Working Group will, once WebRTC 1.0: Real-time Communication Between Browsers reaches Candidate Recommendation, consider proposals for the next version of APIs.
+As the name implies, WebRTC 1.0: Real-time Communication Between Browsers is to be considered as a first version of APIs for real-time communication. The working group will, once WebRTC 1.0: Real-time Communication Between Browsers reaches Candidate Recommendation, consider working on a new set of low level object-oriented APIs for real-time communication to produce WebRTC 1.1. The activities in the ORTC (Object Real-time Communications) Community Group indicate that there is interest in a new set of APIs. As part of this consideration, the group will reevaluate its deliverables and milestones, and may reconsider its scope.
+
+In developing a low-level API, the WG will adhere to the following principles.
+
+Backwards-compatibility: absent strong reasons to the contrary, applications which run in WebRTC 1.0 will continue to function in WebRTC 1.1.
+Standalone operation: The low-level APIs will be sufficient to establish communications without using the high-level WebRTC 1.0 APIs
+Feature independence: New features may be introduced in the low-level API that are not accessible via the high-level API or that are only added to the high-level API in future versions.
+The WG will consider the APIs developed by the ORTC CG as input to the WebRTC 1.1 API design.
 
 The specified API Functions and the requirements on their implementation must offer functionality that ensures that users' expectations of privacy and control over their devices are met - this includes, but is not limited to, ensuring that users can control what local devices an application can access for capturing media, and are able to at any time revoke that access.
 
-Similarly, all the deliverables must address issues of security. The security and privacy goals and requirements will be developed in coordination with the IETF RTCWeb Working Group.
+Similarly, all the deliverables must address issues of security - this includes, but is not limited to, ensuring that arbitrary UDP packets cannot be sent to arbitrary destinations and ports. The security and privacy goals and requirements will be developed in coordination with the IETF RTCWeb Working Group.
 
 Similarly, all deliverables must address issues of accessibility including relevant requirements listed in the Media User Accessibility Requirements document (MAUR), such as multiple well-synchronized instances of the same media type. The accessibility goals and requirements will be developed in coordination with the Accessible Platform Architectures Working Group.
 
@@ -92,15 +98,12 @@ Other Deliverables
 
 A comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents. Therefore, each specification must have a companion test suite, which should be completed by the end of the Last Call phase, and must be completed, with an implementation report, before transition from Candidate Recommendation to Proposed Recommendation. Additional tests may be added to the test suite at any stage of the Recommendation track, and the maintenance of a implementation report is encouraged.
 
-In particular, since WebRTC deals with browser-to-browser communications, specific attention will be brought to the interoperability testing of the WebRTC API implementations.
-
 Other non-normative documents may be created such as:
 
 Primers
-
 Requirements and use case document for specifications.
 Non-normative group notes
-Given sufficient resources, this Working Group should review other Working Groups' deliverables that are identified as being relevant to the Working Group's mission.
+Given sufficient resources, this Working Group should review other working groups' deliverables that are identified as being relevant to the Working Group's mission.
 
 Milestones
 
@@ -116,7 +119,7 @@ Identifiers for WebRTC's Statistics API	2014-10-21	Q4 2015	Q4 2016	Q1 2017
 Media Capture from DOM Elements	Q1 2015	Q4 2015	Q3 2016	Q4 2016
 Audio output API	Q1 2015	Q3 2015	Q2 2016	Q3 2016
 Screen Capture API	Q1 2015	Q4 2015	Q3 2016	Q4 2016
-
+WebRTC NG	Q1 2016	Q2 2017	Q4 2017	Q1 2018
 Dependencies and Liaisons
 
 W3C Groups
@@ -131,7 +134,7 @@ Audio Working Group
 The API developed by the Audio Working Group builds upon the MediaStream object built by this group; further collaboration on the management of audio output device is expected
 Web Application Security Working Group
 The Web Application Security Working Group is developing guidance on APIs that expose sensitive information, and an API to manage permissions, both of which matter to several of this group specifications
-Web Cryptography Working Group
+Web Cryptography API
 WebRTC connections are encrypted end-to-end; collaboration is expected with the Web Cryptography Working Group on exposing and manipulating some of the cryptography functions used
 Second Screen Presentation Working Group
 The Second Screen Presentation Working Group is developing APIs to allow rendering of media on secondary devices; potential overlap with features enabled by the Audio Output Device APIs will need to be looked at
@@ -143,14 +146,12 @@ Privacy Interest Group
 Several of the specifications developed by this group have potential impact on the privacy of users; reviews from the privacy interest group will be sought on these specifications
 Web Security Interest Group
 Several of the specifications developed by this group have a complex impact on the security model of the Web; reviews from the Web Security Interest Group will be sought.
-ORTC Community Group
-The ORTC Community Group is developing an alternative approach to WebRTC 1.0 that provides object-centric APIs for real-time communications. The existing WebRTC API has already integrated interfaces suggested by the Community Group, and will work with it to determine a path for further convergence.
-
 External Groups
 
 IETF Real-Time Communication in WEB-browsers group (RTCWeb)
 The RTC APIs developed by this group will build upon the protocols and formats developed in the IETF RTCWeb Working Group, which will in general handle dependencies to other IETF Working Groups.
 Participation
+
 To be successful, the Web Real-Time Communications Working Group is expected to have 10 or more active participants for its duration. Effective participation to Web Real-Time Communications Working Group is expected to consume one work day per week for each participant; two days per week for editors. The Web Real-Time Communications Working Group will allocate also the necessary resources for building Test Suites for each specification.
 
 Participants are reminded of the Good Standing requirements of the W3C Process.
@@ -167,11 +168,8 @@ Decision Policy
 
 As explained in the Process Document (section 3.3), this group will seek to make decisions when there is consensus. When the Chair puts a question and observes dissent, after due consideration of different opinions, the Chair should record a decision (possibly after a formal vote) and any objections, and move on.
 
-Editors are responsible for reflecting the consensus from the Working Group in the specifications; where editors bring technical solutions in the specifications that have not been reviewed by the group, these solutions are annotated to reflect their status.
-
-Contributors are encouraged to bring specific modifications (e.g. as patches) to the group's specifications to facilitate their review by the group and eventual integration by the editors.
-
 Patent Policy
+
 This Working Group operates under the W3C Patent Policy (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.
 
 For more information about disclosure obligations for this group, please see the W3C Patent Policy Implementation.
