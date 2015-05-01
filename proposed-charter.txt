@@ -26,6 +26,7 @@ API functions for encoding and other processing of those media streams,
 API functions for establishing direct peer-to-peer connections, including firewall/NAT traversal
 API functions for decoding and processing (including echo cancelling, stream synchronization and a number of other functions) of those streams at the incoming end,
 Delivery to the user of those media streams via local screens and audio output devices (partially covered with HTML5)
+
 Success Criteria
 
 To advance to Proposed Recommendation, each specification is expected to have two independent implementations of each feature defined in the specification.
@@ -57,6 +58,7 @@ API functions to provide interfaces that enable the conveyance of parameters nec
 The working group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
 
 WebRTC 1.0: Real-time Communication Between Browsers
+
 JavaScript APIs to allow media and data to be sent to and received from another browser or device implementing the appropriate set of real-time protocols
 Identifiers for WebRTC's Statistics API
 JavaScript APIs that allow access to statistical information about a peer-to-peer connection established via the WebRTC API
@@ -151,6 +153,7 @@ External Groups
 
 IETF Real-Time Communication in WEB-browsers group (RTCWeb)
 The RTC APIs developed by this group will build upon the protocols and formats developed in the IETF RTCWeb Working Group, which will in general handle dependencies to other IETF Working Groups.
+
 Participation
 
 To be successful, the Web Real-Time Communications Working Group is expected to have 10 or more active participants for its duration. Effective participation to Web Real-Time Communications Working Group is expected to consume one work day per week for each participant; two days per week for editors. The Web Real-Time Communications Working Group will allocate also the necessary resources for building Test Suites for each specification.
