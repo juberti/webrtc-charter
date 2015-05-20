@@ -92,7 +92,7 @@ Other Deliverables
 
 A comprehensive test suite for all features of a specification is necessary to ensure the specification's robustness, consistency, and implementability, and to promote interoperability between User Agents. Therefore, each specification must have a companion test suite, which should be completed by the end of the Last Call phase, and must be completed, with an implementation report, before transition from Candidate Recommendation to Proposed Recommendation. Additional tests may be added to the test suite at any stage of the Recommendation track, and the maintenance of a implementation report is encouraged.
 
-In particular, since WebRTC deals with browser-to-browser communications, specific attention will be brought to the interoperability testing of the WebRTC API implementations.
+In particular, since WebRTC deals with communications, specific attention will be brought to the interoperability testing of the WebRTC API implementations (both browser-to-browser and browser-to-native).
 
 Other non-normative documents may be created such as:
 
