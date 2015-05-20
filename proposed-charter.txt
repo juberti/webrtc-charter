@@ -88,8 +88,8 @@ provide more direct control over WebRTC than what the PeerConnection API offers.
 
 In recognition of this interest, the working group will, 
 once WebRTC 1.0: Real-time Communication Between Browsers reaches Candidate Recommendation,
-consider working on a new set of object-oriented APIs for real-time communication.
-As part of this consideration, the group will reevaluate its deliverables and milestones,
+start work on a new set of object-oriented APIs for real-time communication.
+As part of this effort, the group will reevaluate its deliverables and milestones,
 and may reconsider its scope.
 
 In developing these new APIs, the WG will adhere to the following principles:
