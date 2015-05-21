@@ -166,6 +166,10 @@ Decision Policy
 
 As explained in the Process Document (section 3.3), this group will seek to make decisions when there is consensus. When the Chair puts a question and observes dissent, after due consideration of different opinions, the Chair should record a decision (possibly after a formal vote) and any objections, and move on.
 
+Editors are responsible for reflecting the consensus from the Working Group in the specifications; where editors bring technical solutions in the specifications that have not been reviewed by the group, these solutions are annotated to reflect their status.
+
+Contributors are encouraged to bring specific modifications (e.g. as patches) to the group's specifications to facilitate their review by the group and eventual integration by the editors.
+
 Patent Policy
 
 This Working Group operates under the W3C Patent Policy (5 February 2004 Version). To promote the widest adoption of Web standards, W3C seeks to issue Recommendations that can be implemented, according to this policy, on a Royalty-Free basis.
