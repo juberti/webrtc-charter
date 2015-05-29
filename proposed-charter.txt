@@ -43,7 +43,7 @@ Deliverables
 
 Recommendation-Track Deliverables
 
-The working group will deliver specifications that cover at least the following functions, unless they are found to be fully specified within other working groups' finished results:
+The Working Group will deliver specifications that cover at least the following functions, unless they are found to be fully specified within other Working Groups' finished results:
 
 Media Stream Functions
 API functions to manipulate media streams for interactive real-time communications, connecting various processing functions to each other, and to media devices and network connections, including media manipulation functions for e.g. allowing to synchronize streams. Supplementary functions such as recording of media streams are also in scope.
@@ -55,7 +55,7 @@ Functional Component Functions
 API functions that allow to query for the components present in an implementation, instantiate them, and connect them to media streams.
 P2P Connection Functions
 API functions to provide interfaces that enable the conveyance of parameters necessary to establish peer to peer connections, based on the protocols selected by the IETF RTCWeb Working Group. Included in this category are also API functions to allow identification of the peer.
-The working group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
+The Working Group may decide to group the specified functions in one or more specifications. The Working Group has already started and will continue work on the following specifications:
 
 WebRTC 1.0: Real-time Communication Between Browsers
 
@@ -86,11 +86,11 @@ PeerConnection API. The activities in the ORTC (Object Real-time
 Communications) Community Group indicate that there is interest in additional APIs to
 provide more direct control over WebRTC than what the PeerConnection API offers.
 
-In recognition of this interest, the working group will, 
+In recognition of this interest, the Working Group will, 
 once WebRTC 1.0: Real-time Communication Between Browsers reaches Candidate Recommendation,
 start work on a new set of object-oriented APIs for real-time communication.
 
-In developing these new APIs, the WG will adhere to the following principles:
+In developing these new APIs, the Working Group will adhere to the following principles:
 
 Direct control: The new APIs are intended to provide direct control over the details of real-time communication, where the
 application can directly specify how information should be transmitted, without any built-in negotiation semantics. 
@@ -101,8 +101,8 @@ and compelling reason to deprecate specific 1.0 functionality.
 Feature independence: Features may be introduced in the new APIs that are not available when using the 
 PeerConnection API.
 
-The WG will take the work done by the ORTC CG as a source of input, 
-and when contemplating similar APIs in the WG, make efforts to align
+The Working Group will take the work done by the ORTC Community Group as a source of input, 
+and when contemplating similar APIs in the Working Group, make efforts to align
 with the ORTC CG on API methodologies and nomenclature. This may include scheduled design meetings with
 relevant WG and CG stakeholders to foster convergence of the APIs.
 
@@ -122,7 +122,7 @@ Primers
 
 Requirements and use case document for specifications.
 Non-normative group notes
-Given sufficient resources, this Working Group should review other working groups' deliverables that are identified as being relevant to the Working Group's mission.
+Given sufficient resources, this Working Group should review other Working Groups' deliverables that are identified as being relevant to the Working Group's mission.
 
 Milestones
 
